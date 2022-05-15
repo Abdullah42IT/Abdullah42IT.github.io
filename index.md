@@ -14,18 +14,4 @@
 
 </div>
 
-<div class="portfolio-card">
 
-    <h3>Giving Tree Web Application</h3>
-    <p>This is a web application that displays names on leaves as they go across the screen and lightboxes and image when touched.</p>
-    <a class="button" href="/touchscreen/">See the Images</a>
-
-</div>
-
-<div class="portfolio-card">
-
-    <h3>RPG</h3>
-    <p>This is a sample web game created by RPG Maker MZ as a proof of concept of a game running on a live website. </p>
-    <a class="button" href="/game">Play the Game</a>
-
-</div>
