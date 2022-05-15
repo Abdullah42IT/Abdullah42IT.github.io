@@ -1,99 +1,31 @@
+<p><strong>Applications Developer</strong></p>
 
-<style>
+<p>I am an application developer.</p>
 
-.accordion {
-  max-width: 500px;
-  border: 1px solid #000;
-  border-bottom: none;
-}
+<p><a class="button" href="/about">Learn More About Me</a></p>
 
-.accordion:last-child {
-    border-bottom: 1px solid #000;
-}
+<h2>Portfolio</h2>
 
-.accordion-header {
-  display: flex;
-  padding: 16px;
-  cursor: pointer;
-  background-color: F2F2F2;
-}
+<div class="portfolio-card">
 
-.accordion-title {
-  flex: 1;
-}
+    <h3>Seasons JavaScript Application</h3>
+    <p>This is an application that changes the content of the page based on the season that is selected.</p>
+    <a class="button" href="/seasons">Change the Seasons</a>
 
-.accordion-icon: {
-  width: 16px;
-}
-
-.accordion-content {
-  display: none;
-}
-
-</style>
-
-
-<section id="volunteer work">
-
-<h2> Volunteer Work</h2>
-
-<div class ="accordion">
-    <div class="accordion-header">
-      <div class="accordion-title">First Volunteer opportunity - <strong> 2014 </strong></div>
-      <span class="accordion-icon">+</span>
-    </div>
-    <div class="accordion-content">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-    </div>
 </div>
 
-<div class ="accordion">
-    <div class="accordion-header">
-      <div class="accordion-title">Second  Volunteer opportunity</div>
-      <span class="accordion-icon">+</span>
-    </div>
-    <div class="accordion-content">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-    </div>
+<div class="portfolio-card">
+
+    <h3>Giving Tree Web Application</h3>
+    <p>This is a web application that displays names on leaves as they go across the screen and lightboxes and image when touched.</p>
+    <a class="button" href="/touchscreen/">See the Images</a>
+
 </div>
 
-<div class ="accordion">
-    <div class="accordion-header">
-      <div class="accordion-title">Third Volunteer opportunity - <strong> 2016 </strong></div>
-      <span class="accordion-icon">+</span>
-    </div>
-    <div class="accordion-content">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-    </div>
+<div class="portfolio-card">
+
+    <h3>RPG</h3>
+    <p>This is a sample web game created by RPG Maker MZ as a proof of concept of a game running on a live website. </p>
+    <a class="button" href="/game">Play the Game</a>
+
 </div>
-
-<div class ="accordion">
-    <div class="accordion-header">
-      <div class="accordion-title">Fourth Volunteer opportunity - <strong> 2017 </strong></div>
-      <span class="accordion-icon">+</span>
-    </div>
-    <div class="accordion-content">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-    </div>
-</div>
-
-
-
-
-</section>
-
-
-<script>
-
-const accordionHeaders = document.getElementsByClassName('accordion-header');
-const accordionContents = document.getElementsByClassName('accordion-content');
-const accordionIcons = document.getElementsByClassName('accordion-icon');
-
-for(let i = 0; i < accordionHeaders.length; i++) {
-    accordionHeaders[i].addEventListener('click', () => {
-      accordionContents[i].style.display = accordionContents[i].style.display == 'block' ? 'none' : 'block';
-      accordionIcons[i].innerHTML = accordionContents[i].style.display == 'block' ? '-' : '+';
-    });
-}
-
-</script>
